@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Device, Kernel, Vendor, -->
+  <project name="LineageOS/android_device_samsung_hlte" path="device/samsung/hlte" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_device_samsung_hlte-common" path="device/samsung/hlte-common" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_kernel_samsung_msm8974" path="kernel/samsung/msm8974" remote="github" revision="cm-14.1" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1" />
+
+<!-- Lineage Stuff -->
+  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
+
+<!-- Uber TC -->
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+  <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" />
+  <project name="manishjvora/arm" path="prebuilts/gcc/linux-x86/" remote="github" revision="master" />
+
+<!-- Replace crDroid build -->
+  <remove-project name="crdroidandroid/android_build" />
+  <project path="build" name="manishjvora/android_build" remote="github" revision="crdroid7.1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+</manifest>
