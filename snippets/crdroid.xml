@@ -33,7 +33,8 @@
   <!-- <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />--> 
   <project path="libcore" name="manishjvora/android_libcore" remote="github" revision="crdroid7.1" />
   <project path="packages/apps/CMParts" name="crdroidandroid/android_packages_apps_CMParts" remote="crdroid" />
-  <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" remote="crdroid" />
+  <!-- <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" remote="crdroid" />-->
+  <project path="packages/apps/Contacts" name="manishjvora/android_packages_apps_Contacts" remote="github" revision="crdroid7.1" />
   <project path="packages/apps/ContactsCommon" name="crdroidandroid/android_packages_apps_ContactsCommon" remote="crdroid" />
   <project path="packages/apps/crDroidFileManager" name="crdroidandroid/android_packages_apps_crDroidFileManager" remote="crdroid" />
   <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
