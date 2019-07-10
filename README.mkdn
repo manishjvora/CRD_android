@@ -28,7 +28,7 @@ $ mkdir WORKSPACE
 $ cd WORKSPACE
 
 # Install Repo in the created directory
-$ repo init -u https://github.com/crdroidandroid/android -b 7.1
+$ repo init -u https://github.com/manishjvora/CRD_android -b 7.1  --depth=1 --groups=all,-darwin,-x86,-mips,-exynos5
 ```
 
 This is what you will run each time you want to pull in upstream changes. Keep in mind that on your
@@ -37,7 +37,7 @@ and their change histories.
 
 ```bash
 # Let Repo take care of all the hard work
-$ repo sync
+$ repo sync -c -f --force-sync --no-clone-bundle
 ```
 
 ## Building ##
