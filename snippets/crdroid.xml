@@ -2,8 +2,8 @@
 <manifest>
 
   <!-- crDroid additions -->
-  <project path="android" name="crdroidandroid/android" remote="crdroid" />
-  <project path="build" name="crdroidandroid/android_build" remote="crdroid" >
+  <project path="android" name="manishjvora/CRD_android" remote="github" revision="7.1" />
+  <project path="build" name="manishjvora/CRD_android_build" remote="github" revision="7.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="crdroidandroid/android_art" remote="crdroid" />
@@ -20,39 +20,39 @@
   <project path="external/libunwind_llvm" name="crdroidandroid/android_external_libunwind_llvm" remote="crdroid" />
   <project path="external/libxml2" name="crdroidandroid/android_external_libxml2" remote="crdroid" />
   <project path="external/mdnsresponder" name="crdroidandroid/android_external_mdnsresponder" remote="crdroid" />
-  <project path="external/skia" name="crdroidandroid/android_external_skia" remote="crdroid" />
+  <project path="external/skia" name="manishjvora/CRD_android_external_skia" remote="github" revision="7.1" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
   <project path="external/v8" name="crdroidandroid/android_external_v8" remote="crdroid" />
   <project path="external/zlib" name="crdroidandroid/android_external_zlib" remote="crdroid" />
-  <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
-  <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
+  <project path="frameworks/base" name="manishjvora/CRD_android_frameworks_base" remote="github" revision="7.1" />
+  <project path="frameworks/native" name="manishjvora/CRD_android_frameworks_native" remote="github" revision="7.1" />
   <project path="frameworks/support" name="crdroidandroid/android_frameworks_support" remote="crdroid" />
-  <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
+  <project path="libcore" name="manishjvora/CRD_android_libcore" remote="github" revision="7.1" />
   <project path="packages/apps/CMParts" name="crdroidandroid/android_packages_apps_CMParts" remote="crdroid" />
-  <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" remote="crdroid" />
+  <project path="packages/apps/Contacts" name="manishjvora/CRD_android_packages_apps_Contacts" remote="github" revision="7.1" />
   <project path="packages/apps/ContactsCommon" name="crdroidandroid/android_packages_apps_ContactsCommon" remote="crdroid" />
   <project path="packages/apps/crDroidFileManager" name="crdroidandroid/android_packages_apps_crDroidFileManager" remote="crdroid" />
   <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
   <project path="packages/apps/crDroidMusic" name="crdroidandroid/android_packages_apps_crDroidMusic" remote="crdroid" />
-  <project path="packages/apps/crDroidOTA" name="crdroidandroid/android_packages_apps_crDroidOTA" remote="crdroid" />
+  <!-- <project path="packages/apps/crDroidOTA" name="crdroidandroid/android_packages_apps_crDroidOTA" remote="crdroid" /> -->
   <project path="packages/apps/crDroidWallpapers" name="crdroidandroid/android_packages_apps_crDroidWallpapers" remote="crdroid" />
   <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" remote="crdroid" />
   <project path="packages/apps/DUI" name="crdroidandroid/android_packages_apps_DUI" remote="crdroid" />
   <project path="packages/apps/ExactCalculator" name="crdroidandroid/android_packages_apps_ExactCalculator" remote="crdroid" />
   <project path="packages/apps/FMRadio" name="crdroidandroid/android_packages_apps_FMRadio" remote="crdroid" />
-  <project path="packages/apps/Messaging" name="crdroidandroid/android_packages_apps_Messaging" remote="crdroid" />
+  <project path="packages/apps/Messaging" name="manishjvora/CRD_android_packages_apps_Messaging" remote="github" revision="7.1" />
   <project path="packages/apps/OmniStyle" name="crdroidandroid/android_packages_apps_OmniStyle" remote="crdroid" />
   <project path="packages/apps/OmniSwitch" name="crdroidandroid/android_packages_apps_OmniSwitch" remote="crdroid" />
-  <project path="packages/apps/PackageInstaller" name="crdroidandroid/android_packages_apps_PackageInstaller" remote="crdroid" />
+  <project path="packages/apps/PackageInstaller" name="manishjvora/CRD_android_packages_apps_PackageInstaller" remote="github" revision="7.1" />
   <project path="packages/apps/PhoneCommon" name="crdroidandroid/android_packages_apps_PhoneCommon" remote="crdroid" />
-  <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="crdroid" />
+  <project path="packages/apps/Settings" name="manishjvora/CRD_android_packages_apps_Settings" remote="github" revision="7.1" />
   <project path="packages/apps/SlimRecents" name="crdroidandroid/android_packages_apps_SlimRecents" remote="crdroid" />
   <project path="packages/apps/ThemeInterfacer" name="crdroidandroid/android_packages_apps_ThemeInterfacer" remote="crdroid" />
   <project path="packages/apps/Trebuchet" name="crdroidandroid/android_packages_apps_Trebuchet" remote="crdroid" />
   <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" remote="crdroid" />
   <project path="packages/services/OmniJaws" name="crdroidandroid/android_packages_services_OmniJaws" remote="crdroid" />
   <project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" remote="crdroid" />
-  <project path="packages/services/Telephony" name="crdroidandroid/android_packages_services_Telephony" remote="crdroid" />
+  <project path="packages/services/Telephony" name="manishjvora/CRD_android_packages_services_Telephony" remote="github" revision="7.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="neobuddy89/arm-eabi-4.9" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.3" name="neobuddy89/arm-eabi-6.x" remote="bb" revision="master" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.1" name="nathanchance/gcc-prebuilts" remote="github" revision="arm-linaro-7.x" clone-depth="1" />
